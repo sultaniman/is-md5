@@ -1,0 +1,39 @@
+{
+  "name": "is-md5",
+  "version": "0.0.1",
+  "description": "Check if string is md5 hash",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imanhodjaev/is-md5.git"
+  },
+  "keywords": [
+    "md5",
+    "is",
+    "hex",
+    "digest",
+    "hash",
+    "check"
+  ],
+  "author": "Sultan Imanhodjaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imanhodjaev/is-md5/issues"
+  },
+  "homepage": "https://github.com/imanhodjaev/is-md5#readme",
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
