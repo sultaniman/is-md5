@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save get-port
+$ npm install --save is-md5
 ```
 
 
