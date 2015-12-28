@@ -8,6 +8,7 @@ test('test valid hashes', t => {
     '56b708d44ac935eb048be1bf67faeb50'
   ];
 
+  t.plan(3);
   testHashes.map(hash => t.true(fn(hash)));
   t.end();
 });
@@ -22,6 +23,7 @@ test('test invalid hashes', t => {
     'ANY STRING'
   ];
 
+  t.plan(6);
   testHashesError.map(hash => t.false(fn(hash)));
   t.end();
 });
