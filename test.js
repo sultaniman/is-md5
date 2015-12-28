@@ -10,7 +10,6 @@ test('test valid hashes', t => {
 
   t.plan(3);
   testHashes.map(hash => t.true(fn(hash)));
-  t.end();
 });
 
 test('test invalid hashes', t => {
@@ -25,5 +24,4 @@ test('test invalid hashes', t => {
 
   t.plan(6);
   testHashesError.map(hash => t.false(fn(hash)));
-  t.end();
 });
